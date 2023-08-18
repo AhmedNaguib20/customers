@@ -1,0 +1,51 @@
+.header-container {
+  background-color: #002F6C;
+  padding: 20px;
+
+  .logo {
+
+    p {
+      color: #FFF;
+      margin: 0;
+      margin-inline-start: 20px;
+      border-left: 2px solid rgba(222, 222, 222, 0.50);
+      padding-inline-start: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Montserrat;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .user {
+    .images {
+      gap: 12px;
+      padding: 0 20px;
+      border-right: 2px solid rgba(222, 222, 222, 0.50);
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .account {
+    img:first-of-type {
+      width: 36px;
+      height: 36px;
+      margin-inline-start: 20px;
+      margin-inline-end: 8px;
+    }
+
+    p {
+      color: #FFF;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    img:last-of-type {
+      width: 24px;
+      height: 24px;
+      margin-inline-start: 8px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.search-input {
+  background: rgba(255, 255, 255, 0.20);
+  border: 0;
+  border-radius: 40px;
+  width: 382px;
+  padding: 12px;
+  outline: 0;
+
+  input {
+    background-color: transparent;
+    color: #ECECEC;
+
+    &::placeholder {
+      color: #ECECEC !important;
+      font-size: 14px;
+      font-weight: 500;
+      margin-inline-start: 12px;
+    }
+  }
+
+  .ant-input-prefix {
+    margin-inline-end: 12px;
+  }
+
+}
