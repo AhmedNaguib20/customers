@@ -1,0 +1,77 @@
+.create-form-container {
+  border-radius: 8px;
+  border: 1px solid #ECECEC;
+  background: #FFF;
+  padding: 20px;
+
+  p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+
+  .form {
+    flex-wrap: wrap;
+
+    .field {
+      width: 32%;
+      max-width: 100%;
+      margin-bottom: 20px;
+
+      .ant-radio-group {
+        margin-top: 13.5px;
+
+        .ant-radio-inner {
+          width: 24px;
+          height: 24px;
+          border-color: #002F6C;
+        }
+      }
+
+      :where(.css-dev-only-do-not-override-1nvcfld).ant-radio-wrapper span.ant-radio+* {
+        color: #2A2A2A;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .switch {
+        margin-top: 13.5px;
+
+        > span {
+          color: #949494;
+          font-size: 14px;
+          font-weight: 400;
+          
+          &:first-of-type {
+            margin-inline-end: 12px;
+          }
+          &:last-of-type {
+            margin-inline-start: 12px;
+          }
+        }
+      }
+    }
+
+    .buttons-container {
+      width: 100%;
+      justify-content: flex-end;
+
+      button {
+        border-radius: 8px;
+        background: #8097B5;
+        width: 170px;
+        padding: 12px 0;
+        color: #FFF;
+        text-align: center;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+  }
+}

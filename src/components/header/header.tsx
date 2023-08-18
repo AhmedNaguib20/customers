@@ -7,6 +7,7 @@ import settingImage from '../../assets/setting.svg'
 import SearchInput from '../search-input'
 import userImage from '../../assets/user.svg'
 import arrowImage from '../../assets/arrow-down.svg'
+import searchImage from '../../assets/search.svg'
 
 const Header: React.FC = (): ReactElement => (
   <div className="header-container flex justify-space-between">
@@ -16,7 +17,10 @@ const Header: React.FC = (): ReactElement => (
     </div>
     <div className="user flex align-center">
       <div className="flex">
-        <SearchInput placeholder='Search' />
+        <SearchInput
+          prefix={<img src={searchImage} alt='search' />}
+          placeholder='Search' 
+        />
         <div className="images flex align-center">
           <img src={settingImage} alt="setting" />
           <img src={notificationImage} alt="notification" />
