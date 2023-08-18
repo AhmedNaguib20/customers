@@ -1,5 +1,5 @@
 .search-input {
-  background: rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.2);
   border: 0;
   border-radius: 40px;
   width: 382px;
@@ -8,13 +8,12 @@
 
   input {
     background-color: transparent;
-    color: #ECECEC;
+    color: #ececec;
 
     &::placeholder {
-      color: #ECECEC !important;
+      color: #ececec !important;
       font-size: 14px;
       font-weight: 500;
-      margin-inline-start: 12px;
     }
   }
 
@@ -22,4 +21,24 @@
     margin-inline-end: 12px;
   }
 
+  &.sidebar-search {
+    background-color: #fff;
+    border-radius: 40px;
+    border: 1px solid #cdcdcd;
+    max-width: 100%;
+    padding: 8px;
+
+    input {
+      color: rgba(148, 148, 148, 0.7);
+
+      &::placeholder {
+        color: rgba(148, 148, 148, 0.7) !important;
+        font-size: 12px;
+      }
+    }
+
+    .ant-input-prefix {
+      margin-inline-end: 8px;
+    }
+  }
 }

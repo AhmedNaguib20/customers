@@ -7,12 +7,16 @@ import searchImage from '../../assets/search.svg'
 
 const SearchInput: React.FC<InputProperties> = (
   {
-    placeholder
+    placeholder,
+    style,
+    className,
+    prefix
   }
 ): ReactElement => (
   <Input
-    prefix={<img src={searchImage} alt='search' />}
-    className='search-input'
+    style={style}
+    prefix={prefix || <img src={searchImage} alt='search' />}
+    className={`search-input ${className}`}
     placeholder={placeholder}
   />
 )

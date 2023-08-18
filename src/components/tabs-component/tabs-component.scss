@@ -1,0 +1,50 @@
+.tabs-container {
+  margin-top: 20px;
+
+  li {
+    margin-bottom: 23px;
+    cursor: pointer;
+
+    &:first-of-type {
+      margin-top: 21.5px;
+    }
+
+    span {
+      color: #2A2A2A;
+      font-size: 14px;
+      font-weight: 500;
+      margin-inline-start: 12px;
+    }
+
+    span + img{
+      margin-left: auto;
+    }
+  }
+
+  :where(.css-dev-only-do-not-override-1nvcfld).ant-tabs .ant-tabs-ink-bar {
+    background-color: #2A2A2A;
+  }
+
+  .ant-tabs-nav {
+    margin-bottom: 0;
+  }
+
+  .ant-tabs-nav-list {
+    width: 100%;
+  }
+
+  .ant-tabs-tab-btn {
+    color: #535353;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  :where(.css-dev-only-do-not-override-1nvcfld).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #2A2A2A;
+  }
+
+  :where(.css-dev-only-do-not-override-1nvcfld).ant-tabs-top >.ant-tabs-nav::before {
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+}
