@@ -2,7 +2,6 @@ import { ReactElement } from 'react'
 
 import './create-form.scss'
 import Label from '../label'
-import SearchInput from '../search-input'
 import CustomInput from '../custom-input'
 import { Radio, Switch } from 'antd'
 
