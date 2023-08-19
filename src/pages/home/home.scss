@@ -3,11 +3,19 @@
   
   .main-content {
     flex: 1;
+    overflow: hidden;
 
     .content {
       background-color: #F5F5F5;
       flex: 1;
       padding: 20px;
+      overflow: hidden;
+    }
+
+    @media(max-width: 1010px) {
+      .sidebar-container {
+        display: none !important;
+      }
     }
   }
 }

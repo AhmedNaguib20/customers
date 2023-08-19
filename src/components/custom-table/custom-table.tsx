@@ -80,10 +80,13 @@ const CustomTable: React.FC = (): ReactElement => {
     },
   ];
   return (
-    <Table
-      columns={columns}
-      dataSource={CustomersData}
-    />
+    <div className="table-container flex column">
+      <Table
+        columns={columns}
+        dataSource={CustomersData}
+      />
+      <p className='pagination-text'>Showing 1 to 6 of 182 entries</p>
+    </div>
   )
 }
 

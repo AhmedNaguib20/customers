@@ -1,4 +1,4 @@
-import CreateForm from '../../components/create-form'
+import CreateForm from './components/create-form'
 import Header from '../../components/header'
 import SideBar from '../../components/sidebar'
 import CustomersList from './components/customers-list'
