@@ -12,7 +12,7 @@
     z-index: 10;
   }
 
-  :where(.css-dev-only-do-not-override-1nvcfld).ant-pagination .ant-pagination-item-active {
+  .ant-pagination-item-active {
     background-color: #002f6c !important;
 
     a {
