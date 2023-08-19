@@ -1,3 +1,22 @@
 .customers-list-container {
-  
+  margin-top: 20px;
+  border-top: 1px solid #ECECEC;
+  border-radius: 8px;
+  .title {
+    border-radius: 8px 8px 0px 0px;
+    background-color: #FFF;
+    padding: 20px;
+
+    p {
+      color: #2A2A2A;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .images {
+      img:not(:last-of-type) {
+        margin-inline-end: 15px;
+      }
+    }
+  }
 }

@@ -1,0 +1,59 @@
+.ant-table-wrapper {
+  background-color: #fff;
+}
+
+tr {
+  th {
+    background: #e8eef5 !important;
+    color: #002f6c;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 0 !important;
+  }
+
+  td {
+    color: #2a2a2a;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 1px solid #d9d9d9;
+
+    &:nth-of-type(2) {
+      text-decoration: underline;
+    }
+  }
+
+  .ant-table-column-sorters {
+    justify-content: unset !important;
+  }
+
+  .ant-table-column-title {
+    flex: unset !important;
+    margin-inline-end: 2px;
+    color: #002f6c;
+  }
+
+  .status {
+    color: #559994;
+    font-size: 11px;
+    font-weight: 600;
+    width: 44px;
+    height: 13px;
+    text-align: center;
+    border-radius: 4px;
+    background: #c3e5e3;
+    padding: 4px;
+  }
+
+  .date {
+    color: #949494;
+  }
+
+  .mobile {
+    img {
+      margin-inline-end: 6px;
+    }
+    .code {
+      margin-inline-end: 4px;
+    }
+  }
+}

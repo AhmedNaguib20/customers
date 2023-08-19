@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "fullName": "James Rivers",
+    "email": "James@gmail.com",
+    "mobileNumber": "96031301",
+    "code": "+965",
+    "account": "Account# 234551",
+    "status": "Verified",
+    "lastLogin": "July 01, 2021 - 01:46 AM"
+  },
+  {
+    "id": 2,
+    "fullName": "Kira Morrison",
+    "email": "Kira@yahoo.com",
+    "mobileNumber": "1099237777",
+    "code": "+20",
+    "account": "Account# 234552",
+    "status": "Verified",
+    "lastLogin": "November 01, 2021 - 01:46 AM"
+  },
+  {
+    "id": 3,
+    "fullName": "Lily Irwin",
+    "email": "Lily@hotmail.com",
+    "mobileNumber": "96031301",
+    "code": "+966",
+    "account": "Account# 234553",
+    "status": "Verified",
+    "lastLogin": "February 01, 2021 - 01:46 AM"
+  },
+  {
+    "id": 4,
+    "fullName": "Lana Vang",
+    "email": "Lana@gmail.com",
+    "mobileNumber": "96031301",
+    "code": "+216",
+    "account": "Account# 234554",
+    "status": "Verified",
+    "lastLogin": "January 01, 2021 - 01:46 AM"
+  },
+  {
+    "id": 5,
+    "fullName": "Khadija Perez",
+    "email": "Khadija@gmail.com",
+    "mobileNumber": "96031301",
+    "code": "+212",
+    "account": "Account# 234555",
+    "status": "Verified",
+    "lastLogin": "March 01, 2021 - 01:46 AM"
+  },
+  {
+    "id": 6,
+    "fullName": "Edie Hess",
+    "email": "Edie@yahoo.com",
+    "mobileNumber": "96031302",
+    "code": "+965",
+    "account": "Account# 234556",
+    "status": "Verified",
+    "lastLogin": "July 01, 2021 - 01:46 AM"
+  }
+]
