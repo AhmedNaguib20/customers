@@ -49,7 +49,7 @@ const CustomTable: React.FC = (): ReactElement => {
       sortIcon: () => <img src={sortImage} alt='sort table' />,
       render: (text, record) => (
         <div className="mobile flex align-center">
-          <img src={flags[record.code]} alt='text' />
+          <img src={flags[record.code]} alt={text} />
           <span className='code'>{record.code}</span>
           <span>{record.mobileNumber}</span>
         </div>
