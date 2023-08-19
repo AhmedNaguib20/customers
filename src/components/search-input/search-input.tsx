@@ -2,7 +2,7 @@ import { ReactElement } from 'react'
 import { Input } from 'antd'
 
 import './search-input.scss'
-import InputProperties from '../../models'
+import { InputProperties } from '../../models/input-properties'
 
 const SearchInput: React.FC<InputProperties> = (
   {

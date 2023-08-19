@@ -1,7 +1,7 @@
 import { ReactElement } from 'react'
 import './custom-input.scss'
 import { Input } from 'antd'
-import InputProperties from '../../models'
+import { InputProperties } from '../../models/input-properties'
 
 const CustomInput: React.FC<InputProperties> = ({
   placeholder
