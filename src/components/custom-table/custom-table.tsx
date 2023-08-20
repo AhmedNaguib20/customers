@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import { Table } from 'antd'
+import { Pagination, Table } from 'antd'
 import { ColumnsType } from 'antd/es/table';
 
 import './custom-table.scss'
@@ -84,8 +84,12 @@ const CustomTable: React.FC = (): ReactElement => {
       <Table
         columns={columns}
         dataSource={CustomersData}
+        pagination={false}
       />
-      <p className='pagination-text'>Showing 1 to 6 of 182 entries</p>
+      <Pagination
+        total={6}
+        showTotal={(total) => `Showing 1 to ${total} of 182 entries`}
+      />
     </div>
   )
 }

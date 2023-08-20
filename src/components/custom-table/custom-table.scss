@@ -1,5 +1,7 @@
 .table-container {
   position: relative;
+  background-color: #FFF;
+  border-radius: 8px;
   
   p {
     position: absolute;
@@ -88,7 +90,17 @@
   }
 
   .ant-pagination {
-    padding-right: 15px;
+    padding: 14px 20px;
+    display: flex;
+
+    .ant-pagination-total-text {
+      flex-grow: 1;
+      color: #949494;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.24px;
+    }
   }
+
 }
 
