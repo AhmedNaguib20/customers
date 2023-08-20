@@ -1,5 +1,5 @@
 .home-page {
-  min-height: 100vh;
+  height: 100vh;
   
   .main-content {
     flex: 1;
@@ -9,7 +9,7 @@
       background-color: #F5F5F5;
       flex: 1;
       padding: 20px;
-      overflow: hidden;
+      overflow: auto;
     }
 
     @media(max-width: 1010px) {
