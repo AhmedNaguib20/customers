@@ -32,7 +32,8 @@ const CustomTable: React.FC = (): ReactElement => {
       dataIndex: 'fullName',
       key: 'fullName',
       sorter: (a, b) => a.fullName.length - b.fullName.length,
-      sortIcon: () => <img src={sortImage} alt='sort table' />
+      sortIcon: () => <img src={sortImage} alt='sort table' />,
+      fixed: 'left',
     },
     {
       title: 'Email',
